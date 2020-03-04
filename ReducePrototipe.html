@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <style>
+
+        </style>
+</head>
+<body>
+
+<script type="text/javascript">
+
+    var array =[1,2,3,4,5,'d'];
+    var count =0;
+
+    // function sum (arr) {
+    //     for (var i = 0; i < arr.length; i++) {
+    //         count+=arr[i]
+    //     }
+    //     console.log(count)
+    // }
+    // sum (array);
+    function sum (arr) {
+        for (var i = 0; i < arr.length; i++) {
+            count= second(count, arr[i])
+        }
+        console.log(count)
+    }
+
+    function second(item,index,array) {
+        return item+index
+    }
+
+    sum (array);
+    
+</script>
+</body>
+</html>
